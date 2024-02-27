@@ -3,7 +3,8 @@
  ### [YouTube Demonstration](https://youtu.be/URL)
 
 <h2>Description</h2>
-This scenario was completed during the Google Cybersecurity Certificate Program and is based on a fictional company:
+
+<p>This scenario was completed during the Google Cybersecurity Certificate Program and is based on a fictional company:</p>
 
 Botium Toys is a small U.S. business that develops and sells toys. The business has a single physical location, which serves as their main office, a storefront, and warehouse for their products. However, Botium Toy’s online presence has grown, attracting customers in the U.S. and abroad. As a result, their information technology (IT) department is under increasing pressure to support their online market worldwide. 
 
@@ -33,34 +34,38 @@ Your task is to review the IT manager’s scope, goals, and risk assessment repo
 <img src="https://imgur.com/5EscinF.png" height="80%" width="80%"/>
 <br />
 <br />
+
 Provide a recommendation to the IT Manager: <br/>
-Summary
+<br />
+<strong>Summary:</strong> <br />
 Botium Toys' needs multiple controls to improve its security and safeguard sensitive data. This includes implementing Least Privilege, disaster recovery plans, password policies, separation of duties, an IDS (Intrusion Detection System), ongoing legacy system management, encryption, and a password management system.
 
 In addition, compliance gaps demand immediate action. Least privilege, separation of duties, and encryption are priority controls. Additionally, proper asset classification will reveal further controls necessary to bolster security and shield sensitive information.
 
-Recommended Controls to Implement
-Least privilege - Unrestricted access to customer data puts us at risk of a breach. It's crucial to limit employee privileges based on their specific roles and responsibilities.
-Disaster recovery plans - The absence of disaster recovery plans is a critical gap in our security posture. These need to be implemented to ensure business continuity.
-Password policies - Employee password requirements are minimal, a threat actor can easily infiltrate our systems through employee devices and steal customer data, disrupt operations, or even cause financial damage.
-Separation of duties - the current practice of the CEO handling both daily operations and payroll management presents a potential risk for fraud or inappropriate access to sensitive data. Implementing separation of duties will mitigate this risk.
-Intrusion detection system (IDS) - The IT department needs an IDS in place to help identify possible intrusions by threat actors.
-Backups - The IT department needs to have backups of critical data, in the case of a breach, to ensure business continuity.
-Manual monitoring, maintenance, and intervention for legacy systems - The list of assets notes the use of legacy systems. The risk assessment indicates that these systems are monitored and maintained, but there is not a regular schedule in place for this task and procedures/ policies related to intervention are unclear. By implementing a regular maintenance schedule with clear procedures for intervention, we can significantly improve the security and stability of our legacy systems. 
-Encryption - Encryption is not currently used; implementing it would provide greater confidentiality of sensitive information.
-Password management system - There is no password management system currently in place; implementing this control would improve IT department/other employee productivity in the case of password issues.
+<strong>Recommended Controls to Implement:</strong><br />
+<ul>
+<li>Least privilege - Unrestricted access to customer data puts us at risk of a breach. It's crucial to limit employee privileges based on their specific roles and responsibilities.</li>
+<li>Disaster recovery plans - The absence of disaster recovery plans is a critical gap in our security posture. These need to be implemented to ensure business continuity.</li>
+<li>Password policies - Employee password requirements are minimal, a threat actor can easily infiltrate our systems through employee devices and steal customer data, disrupt operations, or even cause financial damage.</li>
+<li>Separation of duties - the current practice of the CEO handling both daily operations and payroll management presents a potential risk for fraud or inappropriate access to sensitive data. Implementing separation of duties will mitigate this risk.</li>
+<li>Intrusion detection system (IDS) - The IT department needs an IDS in place to help identify possible intrusions by threat actors.</li>
+<li>Backups - The IT department needs to have backups of critical data, in the case of a breach, to ensure business continuity.</li>
+<li>Manual monitoring, maintenance, and intervention for legacy systems - The list of assets notes the use of legacy systems. The risk assessment indicates that these systems are monitored and maintained, but there is not a regular schedule in place for this task and procedures/ policies related to intervention are unclear. By implementing a regular maintenance schedule with clear procedures for intervention, we can significantly improve the security and stability of our legacy systems. </li>
+<li>Encryption - Encryption is not currently used; implementing it would provide greater confidentiality of sensitive information.
+<li>Password management system - There is no password management system currently in place; implementing this control would improve IT department/other employee productivity in the case of password issues.</li>
+</ul>
 
-(PCI DSS) Compliance flags
+<strong>(PCI DSS) Compliance flags:</strong><br />
 Currently, all employees have access to the company’s internal data.
 Credit card information is not encrypted and all employees currently have access to internal data, including customers’ credit card information.
 The company does not currently use encryption to better ensure the confidentiality of customers’ financial information.
 Password policies are nominal and no password management system is currently in place.
 
-(GDPR) Compliance flags
+<strong>(GDPR) Compliance flags:</strong><br />
 The company does not currently use encryption to better ensure the confidentiality of customers’ financial information.
 Current assets have been inventoried/listed, but not classified.
 
-(SOC type 1, SOC type 2) Compliance flags
+<strong>(SOC type 1, SOC type 2) Compliance flags:</strong><br />
 Controls of Least Privilege and separation of duties are not currently in place; all employees have access to internally stored data.
 Encryption is not currently used to better ensure the confidentiality of PII/SPII.
 While data is available to all employees, authorization needs to be limited to only the individuals who need access to it to do their jobs.
