@@ -15,20 +15,16 @@ Your task is to review the IT manager’s scope, goals, and risk assessment repo
 <br />
 
 
-<h2>Languages and Utilities Used</h2>
+<h2>Documentation provided</h2>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+- <b>Control categories</b> 
+- <b>Control and compliance checklist</b>
 
-<h2>Environments Used </h2>
-
-- <b>Windows 10</b> (21H2)
-
-<h2>Program walk-through:</h2>
+<h2>Project walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+1. Complete the Controls assessment checklist by selecting whether Botium Toys has this control in place (Yes/No): <br/>
+<img src="https://imgur.com/a/QcU1HKv" height="80%" width="80%"/>
 <br />
 <br />
 Select the disk:  <br/>
