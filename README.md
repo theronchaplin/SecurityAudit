@@ -56,19 +56,25 @@ In addition, compliance gaps demand immediate action. Least privilege, separatio
 </ul>
 
 <strong>(PCI DSS) Compliance flags:</strong><br />
-Currently, all employees have access to the company’s internal data.
-Credit card information is not encrypted and all employees currently have access to internal data, including customers’ credit card information.
-The company does not currently use encryption to better ensure the confidentiality of customers’ financial information.
-Password policies are nominal and no password management system is currently in place.
+<ul>
+<li>Currently, all employees have access to the company’s internal data.</li>
+<li>Credit card information is not encrypted and all employees currently have access to internal data, including customers’ credit card information.</li>
+<li>The company does not currently use encryption to better ensure the confidentiality of customers’ financial information.</li>
+<li>Password policies are nominal and no password management system is currently in place.</li>
+</ul>
 
 <strong>(GDPR) Compliance flags:</strong><br />
-The company does not currently use encryption to better ensure the confidentiality of customers’ financial information.
-Current assets have been inventoried/listed, but not classified.
+<ul>
+<li>The company does not currently use encryption to better ensure the confidentiality of customers’ financial information.</li>
+<li>Current assets have been inventoried/listed, but not classified.</li>
+</ul>
 
 <strong>(SOC type 1, SOC type 2) Compliance flags:</strong><br />
-Controls of Least Privilege and separation of duties are not currently in place; all employees have access to internally stored data.
-Encryption is not currently used to better ensure the confidentiality of PII/SPII.
-While data is available to all employees, authorization needs to be limited to only the individuals who need access to it to do their jobs.
+<ul>
+<li>Controls of Least Privilege and separation of duties are not currently in place; all employees have access to internally stored data.</li>
+<li>Encryption is not currently used to better ensure the confidentiality of PII/SPII.</li>
+<li>While data is available to all employees, authorization needs to be limited to only the individuals who need access to it to do their jobs.</li>
+</ul>
 
 <!--
  ```diff
