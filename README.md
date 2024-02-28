@@ -1,6 +1,7 @@
 <h1>Conduct a security audit (fictional scenario)</h1>
 
- ### [YouTube Demonstration](https://youtu.be/URL)
+### [YouTube Demonstration (work in progress)](https://youtu.be/URL)
+
 
 <h2>Description</h2>
 
@@ -25,24 +26,26 @@ Your task is to review the IT manager’s scope, goals, and risk assessment repo
 <h2>Project walk-through:</h2>
 
 <p align="center">
-1. Complete the Controls assessment checklist by selecting whether Botium Toys has this control in place (Yes/No): <br/>
+1. Complete the Controls assessment checklist by selecting whether Botium Toys has this control in place (Yes/No) <br/>
 <img src="https://imgur.com/1cEGunm.png" height="80%" width="80%"/>
 <br />
 <br />
-2. Complete the Compliance checklist by selecting whether Botium Toys currently adheres to this compliance best practice (Yes/No):  <br/>
+2. Complete the Compliance checklist by selecting whether Botium Toys currently adheres to this compliance best practice (Yes/No)  <br/>
 <img src="https://imgur.com/YFLQx7R.png" height="80%" width="80%"/>
 <img src="https://imgur.com/5EscinF.png" height="80%" width="80%"/>
 <br />
 <br />
 
-Provide a recommendation to the IT Manager: <br/>
+3. Provide a recommendation to the IT Manager <br/>
 <br />
 <strong>Summary:</strong> <br />
+<br />
 Botium Toys' needs multiple controls to improve its security and safeguard sensitive data. This includes implementing Least Privilege, disaster recovery plans, password policies, separation of duties, an IDS (Intrusion Detection System), ongoing legacy system management, encryption, and a password management system.
-
+<br /><br />
 In addition, compliance gaps demand immediate action. Least privilege, separation of duties, and encryption are priority controls. Additionally, proper asset classification will reveal further controls necessary to bolster security and shield sensitive information.
-
+<br /><br />
 <strong>Recommended Controls to Implement:</strong><br />
+<br />
 <ul>
 <li>Least privilege - Unrestricted access to customer data puts us at risk of a breach. It's crucial to limit employee privileges based on their specific roles and responsibilities.</li>
 <li>Disaster recovery plans - The absence of disaster recovery plans is a critical gap in our security posture. These need to be implemented to ensure business continuity.</li>
