@@ -1,11 +1,11 @@
-<h1>Conduct a security audit (fictional scenario)</h1>
+<h1>Conduct a security audit</h1>
 
 ### [YouTube Demonstration (work in progress)](https://youtu.be/URL)
 
 
 <h2>Description</h2>
 
-<p><em>This scenario was completed during the Google Cybersecurity Certificate Program and is based on a fictional company:</em></p>
+<p><em>This scenario was completed during the Google Cybersecurity Certificate Program:</em></p>
 
 Botium Toys is a small U.S. business that develops and sells toys. The business has a single physical location, which serves as their main office, a storefront, and warehouse for their products. However, Botium Toy’s online presence has grown, attracting customers in the U.S. and abroad. As a result, their information technology (IT) department is under increasing pressure to support their online market worldwide. 
 
