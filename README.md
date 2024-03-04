@@ -1,6 +1,6 @@
 <h1>Conduct a security audit</h1>
 
-### [YouTube Demonstration (work in progress)](https://youtu.be/URL)
+### [YouTube Demonstration](https://youtu.be/gnAeU3vSNAs)
 
 
 <h2>Description</h2>
